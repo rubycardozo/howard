@@ -16,7 +16,7 @@ export default function Carousely() {
 
     const images = [intro, sitting, profile]
     const texts = ["A lawyer who cares. Don't mistake his kindness for weakness.", "He's worked his way through debt. Depression. His marriage falling apart. But he always lands on his feet.", "-Howard Hamlin"]
-    const heads = ["HOWARD HAMLIN: \n Attorney at law", "A Divorced Insomniac: He gets it", '"So, have you thought any more about the job?"']
+    const heads = ["HOWARD HAMLIN: \n Attorney at law", "A Divorced Insomniac: He gets it.", '"So, have you thought any more about the job?"']
     const [index, setIndex] = useState(0)
     const [Image, setImage] = useState(images[index])
     const [opacity, setOpacity] = useState(100)
@@ -27,7 +27,7 @@ export default function Carousely() {
 
         const interval = setInterval(() => {
             setIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 9000);
+        }, 7000);
         return () => clearInterval(interval); // Clear the interval when the component unmounts or the dependency changes
     }, []);
 
@@ -35,7 +35,7 @@ export default function Carousely() {
         const fade = () => {
             setOpacity(0)
         }
-        const timer = setTimeout(fade, 8000)
+        const timer = setTimeout(fade, 6000)
         setImage(images[index])
         setText(texts[index])
         setHead(heads[index])
