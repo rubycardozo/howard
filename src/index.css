@@ -22,7 +22,7 @@ code {
   margin-left: 15vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
-  border-bottom: 1px solid #A8BEF0;
+
 }
 
 .navcontainer {
@@ -75,4 +75,24 @@ h1 {
 
 .black {
   background-color: black;
+}
+
+.text {
+  z-index: 999;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 15vw;
+  color: white;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+  width: 35vw;
+
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 2;
 }
