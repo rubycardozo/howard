@@ -16,7 +16,7 @@ export default function Carousely() {
 
     const images = [intro, sitting, profile]
     const texts = ["A lawyer who cares. Don't mistake his kindness for weakness.", "He's worked his way through debt. Depression. His marriage falling apart. But he always lands on his feet.", "-Howard Hamlin"]
-    const heads = ["HOWARD HAMLIN: \n Attorney at law", "A Divorced Insomniac: He gets it", '"So, Have you thought any more about the job?"']
+    const heads = ["HOWARD HAMLIN: \n Attorney at law", "A Divorced Insomniac: He gets it", '"So, have you thought any more about the job?"']
     const [index, setIndex] = useState(0)
     const [Image, setImage] = useState(images[index])
     const [opacity, setOpacity] = useState(100)
