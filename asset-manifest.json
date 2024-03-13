@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/howard/static/css/main.98d23270.css",
-    "main.js": "/howard/static/js/main.9b324fb7.js",
+    "main.css": "/howard/static/css/main.a890a783.css",
+    "main.js": "/howard/static/js/main.5246c090.js",
     "static/js/453.51e262ad.chunk.js": "/howard/static/js/453.51e262ad.chunk.js",
     "static/media/sitting.png": "/howard/static/media/sitting.2136acd4e0c43d5dc8a9.png",
     "static/media/intro.png": "/howard/static/media/intro.49c88441a337a6b12b84.png",
     "static/media/profile.png": "/howard/static/media/profile.ca763d74808e597848a4.png",
     "static/media/logo.jpg": "/howard/static/media/logo.7dbd66295084968520f0.jpg",
     "index.html": "/howard/index.html",
-    "main.98d23270.css.map": "/howard/static/css/main.98d23270.css.map",
-    "main.9b324fb7.js.map": "/howard/static/js/main.9b324fb7.js.map",
+    "main.a890a783.css.map": "/howard/static/css/main.a890a783.css.map",
+    "main.5246c090.js.map": "/howard/static/js/main.5246c090.js.map",
     "453.51e262ad.chunk.js.map": "/howard/static/js/453.51e262ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98d23270.css",
-    "static/js/main.9b324fb7.js"
+    "static/css/main.a890a783.css",
+    "static/js/main.5246c090.js"
   ]
 }
